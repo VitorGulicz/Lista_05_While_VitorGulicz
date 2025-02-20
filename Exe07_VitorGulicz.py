@@ -9,7 +9,7 @@ numeros.append(numero)
 while numero !="0":
     numero=input("Digite um numero: ")
     if numero in numeros:
-        print("Numero repetido")
+        print("Numero repitido")
     else:
         numeros.append(numero)
 lista=len(numeros)

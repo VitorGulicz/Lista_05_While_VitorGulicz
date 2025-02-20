@@ -7,10 +7,12 @@ if chute<=15:
     print("Muito baixo!")
 elif chute>=20:
     print("Muito alto!")
-while 15<chute<20:
+while chute > 15 or chute <20:
         chute=int(input("Digite um numero: "))
-        if chute<=20:
+        if chute<=15:
             print("Palpite muito baixo!")
-        elif chute>=15:
-            print("Numero muito alto!")   
-print("Obrigado!")
+        elif chute>=20:
+            print("Numero muito alto!") 
+        else:
+             print("Obrigado! -Vitor Gulicz")
+             break
